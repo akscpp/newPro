@@ -662,7 +662,7 @@ input[type="submit"]:hover {
     row-gap: 8px;
     /* margin-left: 129px; */
     margin-right: 14px;
-    margin-top: -90vh;
+    margin-top: -24%;
     padding: 10px;
 }
 
@@ -673,7 +673,7 @@ input[type="submit"]:hover {
     /* gap: 9px; */
     /* row-gap: 15px; */
     margin-left: -1vh;
-    margin-top: -90vh;
+    margin-top: -24%;
     height: fit-content;
     grid-column-gap: 0vh;
     margin-bottom: -49vh;
