@@ -950,8 +950,12 @@ text-align: left;
         
     display: inline-flex;
     margin-top: 0vh;
-    margin-left: 28%;
-    /* margin-right: 0%;
+    margin-left: 25%;
+    justify-content: center;
+    padding-right: 0%;
+    margin-top: -1%;
+    align-items: center;
+    width: 40%;
 
 
     }
@@ -1151,6 +1155,7 @@ text-align: left;
     letter-spacing: 2px;
     font-family: "Work Sans";
     margin-left: auto;
+        
 
 
     }
