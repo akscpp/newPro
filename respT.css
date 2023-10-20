@@ -128,13 +128,13 @@ div#head_bottom_con3 {
     flex: 1 0 0px;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 36px;
     height: auto;
     justify-content: center;
     overflow: hidden;
-    padding-left: 3vw;
+    padding-left: 4vw;
     position: relative;
-    width: 39vw;
+    width: 50%;
 }
 
 .secondCol {
@@ -171,13 +171,13 @@ div#head_bottom_con3 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    gap: 0px;
+    gap: 4%;
     height: 100%;
     justify-content: center;
     align-items: flex-start;
-    max-width: 1996px;
-    padding-left: 0;
-    width: 754px;
+    max-width: 1998px;
+    padding-left: 6%;
+    width: 78%;
     background-color: rgba(0, 0, 0, 0.21);
     backdrop-filter: blur(15px);
 }
@@ -199,6 +199,7 @@ h1#title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: -4%;
     justify-content: flex-start;
     width: 100%;
 }
@@ -219,9 +220,9 @@ h2#subTitle {
 
 #sst {
     font-family: 'Work Sans';
-    font-size: 26px;
+    font-size: 163%;
     font-weight: 300;
-    line-height: 42px;
+    line-height: 111%;
     vertical-align: baseline;
     letter-spacing: 0.5px;
     word-spacing: -1px;
@@ -239,6 +240,7 @@ h2#subTitle {
     align-items: center;
     flex-wrap: nowrap;
     gap: 1vw;
+    margin-top: -7%;
 }
 
 .btn1 {
@@ -256,7 +258,7 @@ h2#subTitle {
 }
 
 .btn1-text {
-    font-size: 24px;
+    font-size: 142%;
     font-weight: 700;
     align-items: center;
     cursor: pointer;
@@ -282,7 +284,7 @@ h2#subTitle {
 }
 
 .btn2-text {
-    font-size: 24px;
+    font-size: 155%;
     font-weight: 700;
     align-items: center;
     cursor: pointer;
@@ -312,7 +314,7 @@ h2#subTitle {
 
 #ppt {
     font-family: 'Chela One';
-    font-size: 130px;
+    font-size: 800%;
     font-weight: 600;
     letter-spacing: 4px;
     align-items: left;
@@ -383,8 +385,7 @@ input::placeholder {
 .contents {
     color: white;
     text-align: left;
-    padding: 130px;
-
+    padding-left: 10%;
 }
 
 .rowTitles {
@@ -392,8 +393,9 @@ input::placeholder {
     font-size: 100px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    margin-top: auto;
+    margin-top: 0vh;
     margin-left: 2vw;
+    margin-bottom: 0%;
     letter-spacing: 1px;
     font-family: 'Work Sans';
 }
@@ -628,7 +630,7 @@ input[type="submit"]:hover {
 .footer {
     text-align: center;
     padding: 2vh;
-    height: 7vh;
+    /* height: 0%; */
     background-color: rgb(180, 22, 1);
 }
 
@@ -656,15 +658,16 @@ input[type="submit"]:hover {
 
 .services {
        display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    /* gap: 10px; */
-    row-gap: 57px;
-    /* margin-left: 129px; */
-    /* column-gap: 0vw; */
-    margin-right: 14px;
-    margin-top: -24%;
-    padding: 10px;
+       grid-template-columns: repeat(4, 1fr);
+       grid-template-rows: repeat(2, 1fr);
+       /* gap: 10px; */
+       row-gap: 57px;
+       /* margin-left: 129px; */
+       /* column-gap: 0vw; */
+       margin-right: 14px;
+       margin-top: -24%;
+       padding: 10px;
+       margin-bottom: 1%;
 }
 
 .services2 {
@@ -916,8 +919,7 @@ text-align: left;
 
 .mod_title {
     flex-direction: row;
-    margin-top: 39vh;
-
+    margin-top: 13%;
 }
 
 .mod_title2 {
