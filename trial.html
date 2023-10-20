@@ -3,12 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://awwzo.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Awwzo">
+    <meta property="og:description" content="Premium Pet Boarding">
+    <meta property="og:image" content="https://awwzo.com/awwzo_icon.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="awwzo.com">
+    <meta property="twitter:url" content="https://awwzo.com">
+    <meta name="twitter:title" content="Awwzo">
+    <meta name="twitter:description" content="Premium Pet Boarding">
+    <meta name="twitter:image" content="https://awwzo.com/awwzo_icon.jpg">
+
     <meta property="og:image" content="logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1">
     <meta name="keywords" content="pet boarding , pet ,  boarding ">
     <meta name="robots" content="INDEX , FOLLOW">
     <link rel="stylesheet" href="respT.css">
-    <link rel="icon" href="logo.png" type="image/png">
+    <!-- <link rel="icon" href="logo.png" type="image/png"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
@@ -50,7 +66,7 @@
             left: 0;
             width: 100%;
             height: 60px;
-            background-color: rgb(27, 26, 30);
+            background-color: #09020f;
             z-index: 1000;
             display: flex;
             justify-content: space-between;
@@ -76,7 +92,7 @@
             left: 0;
             width: 100%;
             height: 60px;
-            background-color: rgb(27, 26, 30);
+            background-color: #08020E;
             z-index: 1000;
             display: none;
             /* Initially hidden */
@@ -103,7 +119,7 @@
             cursor: pointer;
         }
 
-        @media (max-width: 360px) {
+        @media (max-width: 520px) {
             .header {
                 display: flex;
 
@@ -133,7 +149,7 @@
             <!-- Add your logo image here -->
             <img src="logo.png" alt="Logo" id="logoAwwzo">
         </div>
-        <div class="menu-icon" onclick="toggleMenu()"></div>
+        <!-- <div class="menu-icon" onclick="toggleMenu()"></div> -->
     </div>
 
     <!-- ... (the rest of your HTML content) ... -->
@@ -151,8 +167,8 @@
                     <div class="firstCol">
                         <div class="contents">
                             <div class="heading" id="top_header">
-                                <h1 id="ppt">
-                                    AWWZO</h1>
+                                <div id="ppt">
+                                    AWWZO</div>
                             </div>
                             <div class="subText">
                                 <h2 id="sst">
@@ -180,27 +196,31 @@
 
                 <div class="secondRow" id="target1">
                     <div class="rowFirst">
-                        <p class="rowTitles"><b>OUR SERVICES</b></p>
+                        <div class="mod_title">
+                            <div class="rowTitles"><b>Our</b></div>
+                            <div class="rowTitles"><b>Services</b></div>
+                        </div>
                         <div class="services-container">
                             <div class="services">
                                 <div class="servicesdetails">
-                                    <img src="boarding.png">
-                                    <p class="titleServices">BOARDING</p>
-                                    <p class="texts1">OVERNIGHT STAY: A safe and comfortable home for pets.</p>
+
+                                    <img src="boarding_1.svg">
+                                    <p class="titleServices"><b>BOARDING</b></p>
+                                    <p class="texts1"><b>OVERNIGHT STAY:</b> A safe and comfortable home for pets.</p>
                                 </div>
                                 <div class="servicesdetails">
-                                    <img src="day-care.png">
-                                    <p class="titleServices">DAY CARE</p>
-                                    <p class="texts1">LIMITED STAY: A supervised daytime care for pets.</p>
+                                    <img src="daycare_1.svg">
+                                    <p class="titleServices"><b>DAY CARE</b></p>
+                                    <p class="texts1"><b>LIMITED STAY:</b> A supervised daytime care for pets.</p>
                                 </div>
                                 <div class="servicesdetails">
-                                    <img src="grooming.png">
-                                    <p class="titleServices">GROOMING</p>
+                                    <img src="grooming_1.svg">
+                                    <p class="titleServices"><b>GROOMING</b></p>
                                     <p class="texts1">We enhance your pet's physical appearance and hygiene.</p>
                                 </div>
                                 <div class="servicesdetails">
-                                    <img src="training.png">
-                                    <p class="titleServices">TRAINING</p>
+                                    <img src="training_1.svg">
+                                    <p class="titleServices"><b>TRAINING</b></p>
                                     <p class="texts1">We teach and reinforce desired behaviors in pets.</p>
                                 </div>
                             </div>
@@ -219,53 +239,49 @@
                 </div>
                 <div id="thirdRow">
                     <div class="rowFirst">
-                        <p class="rowTitles"><b>WHY US?</b></p>
+                        <div class="mod_title2">
+                            <div class="rowTitles2"><b>Why</b></div>
+                            <div class="rowTitles2"><b>Us</b></div>
+                        </div>
                         <div class="whyCol">
                             <div class="services2">
 
                                 <div class="servicesdetails2">
-                                    <img src="in_and_out.png">
-                                    <p class="titleServices">IN AND OUT</p>
-                                    <p class="texts2">Seamless access to both indoor and outdoor areas for comfort in
-                                        any
-                                        weather.</p>
+                                    <img src="in_out_1.svg">
+                                    <p class="titleServices"><b>IN AND OUT</b></p>
+                                    <p class="texts2">Seamless access to both indoor and outdoor areas for comfort.</p>
 
                                 </div>
                                 <div class="servicesdetails2">
-                                    <img src="pure_air.png">
-                                    <p class="titleServices">PURE AIR</p>
-                                    <p class="texts2">Utilizing a top-tier medical-grade hvac system and air filters, we
+                                    <img src="pure_air_1.svg">
+                                    <p class="titleServices"><b>PURE AIR</b></p>
+                                    <p class="texts2">Top-tier hvac system , we
                                         ensure 100%
-                                        outside air circulation with each cycle.</p>
+                                        fresh air circulation with each cycle.</p>
                                 </div>
                                 <div class="servicesdetails2">
-                                    <img src="dive_in.png">
-                                    <p class="titleServices">DIVE IN</p>
-                                    <p class="texts2">Dive into our in-ground saltwater pool - no further explanation
-                                        needed.</p>
+                                    <img src="dive_in_1.svg">
+                                    <p class="titleServices"><b>DIVE IN</b></p>
+                                    <p class="texts2">Dive into our in-ground saltwater pool and cool down.</p>
 
                                 </div>
 
                                 <div class="servicesdetails2">
-                                    <img src="squeaky_clean.png">
-                                    <p class="titleServices">SQUEAKY CLEAN</p>
-                                    <p class="texts2">We maintain the highest sanitation standards, equipped with the
-                                        right tools to
-                                        ensure safety.</p>
+                                    <img src="squeaky_1.svg">
+                                    <p class="titleServices"><b>SQUEAKY CLEAN</b></p>
+                                    <p class="texts2">We maintain the highest sanitation standards.</p>
 
                                 </div>
                                 <div class="servicesdetails2">
-                                    <img src="sure_footed.png">
-                                    <p class="titleServices">SURE FOOTED</p>
-                                    <p class="texts2">Our textured floors offer the perfect paw-friendly grip throughout
-                                        our facility.</p>
+                                    <img src="sure_footed_1.svg">
+                                    <p class="titleServices"><b>SURE FOOTED</b></p>
+                                    <p class="texts2">Our textured floors offer the perfect paw-friendly grip
+                                        throughout.</p>
                                 </div>
                                 <div class="servicesdetails2">
-                                    <img src="observe.png">
-                                    <p class="titleServices">OBSERVE</p>
-                                    <p class="texts2">Stay connected with your pup through our camera system, whether
-                                        they're in
-                                        daycare or their stay room.</p>
+                                    <img src="observe_1.svg">
+                                    <p class="titleServices"><b>OBSERVE</b></p>
+                                    <p class="texts2">Stay connected with your pup through our camera system.</p>
 
                                 </div>
                             </div>
@@ -330,17 +346,10 @@
                             </div>
 
 
+
                         </form>
                     </div>
-
-
-
-
-
-                    <!-- </div> -->
                 </div>
-                <!-- <div class="contactUs">
-                </div> -->
                 <div class="footer">
                     <div class="socials">
                         <a href="https://twitter.com/iamawwzo"><img class="social-icon" src="x.svg"
@@ -352,9 +361,6 @@
 
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     </div>
@@ -398,11 +404,6 @@
         });
 
 
-
-
-
-
-
         const scrollIndicators2 = document.querySelectorAll('.scroll-dot2');
         const services2 = document.querySelector('.services2');
         const cardWidth2 = services2.clientWidth;
@@ -441,16 +442,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
         function toggleMenu() {
             // Add your code to toggle the mobile menu here
         }
@@ -459,11 +450,33 @@
         const form = document.forms['google-sheet']
 
         form.addEventListener('submit', e => {
-            e.preventDefault()
+            e.preventDefault();
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-                .catch(error => console.error('Error!', error.message))
-        })
+                .then(response => {
+                    // Create a custom alert box
+                    const customAlert = document.createElement('div');
+                    customAlert.textContent = "Thanks for Contacting us..! We Will Contact You Soon...";
+                    customAlert.style.backgroundColor = 'black';
+                    customAlert.style.color = 'white';
+                    customAlert.style.padding = '10px';
+                    customAlert.style.textAlign = 'center';
+                    customAlert.style.borderRadius = '5px';
+                    customAlert.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.2)';
+                    customAlert.style.position = 'fixed';
+                    customAlert.style.top = '50%';
+                    customAlert.style.left = '50%';
+                    customAlert.style.transform = 'translate(-50%, -50%)';
+                    customAlert.style.zIndex = '9999';
+
+                    document.body.appendChild(customAlert);
+
+                    // Automatically remove the custom alert after a few seconds
+                    setTimeout(() => {
+                        customAlert.remove();
+                    }, 5000);
+                })
+                .catch(error => console.error('Error!', error.message));
+        });
 
 
         function scrollToServices() {
