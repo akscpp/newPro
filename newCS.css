@@ -401,6 +401,8 @@ input::placeholder {
     font-family: 'Work Sans';
 
     
+
+    
 }
 
 .rowTitles2 {
@@ -1123,14 +1125,14 @@ text-align: left;
 
     .rowTitles {
 
-     font-size: 29px;
+    font-size: 29px;
     font-weight: 700;
     color: rgb(255, 255, 255);
     margin-top: 3.5vh;
     text-align: center;
-    padding-left: 4%;
+    padding-left: 1vh;
     margin-top: auto;
-    /* margin-left: auto; */
+    margin-left: auto;
     letter-spacing: 3px;
     /* word-spacing: -19vw; */
     font-family: "Work Sans";
