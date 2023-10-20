@@ -399,7 +399,7 @@ input::placeholder {
 }
 
 .rowTitles2 {
-    padding-left: 35px;
+     padding-left: 35px;
     font-size: 100px;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -655,12 +655,13 @@ input[type="submit"]:hover {
 }
 
 .services {
-    display: grid;
+       display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     /* gap: 10px; */
-    row-gap: 8px;
+    row-gap: 57px;
     /* margin-left: 129px; */
+    /* column-gap: 0vw; */
     margin-right: 14px;
     margin-top: -24%;
     padding: 10px;
@@ -669,25 +670,27 @@ input[type="submit"]:hover {
 .services2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
     /* gap: 9px; */
-    /* row-gap: 15px; */
+    row-gap: 3vh;
     margin-left: -1vh;
     margin-top: -24%;
-    height: fit-content;
-    grid-column-gap: 0vh;
-    margin-bottom: -49vh;
-    margin-right: 14px;
+    /* height: fit-content; */
+    /* height: auto; */
+    /* grid-template-rows: none; */
+    /* grid-column-gap: 0vh; */
+    /* margin-bottom: 0vh; */
+    /* margin-right: 14px; */
     padding: 9px;
 }
 
 
 .servicesdetails:first-child {
-    grid-column: 3/5;
-    grid-row: 1/3;
+    grid-column: 3/4;
+    grid-row: 1/2;
     width: 285px;
-    margin-top: 18vh;
-    margin-bottom: 7vh;
+    /* margin-top: 18vh; */
+    /* margin-bottom: 7vh; */
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 39px;
     padding-bottom: 23px;
@@ -697,8 +700,8 @@ input[type="submit"]:hover {
 }
 
 .servicesdetails:nth-child(2) {
-    grid-column: 4/5;
-    grid-row: 1/3;
+     grid-column: 4/4;
+    grid-row: 1/2;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 39px;
@@ -706,27 +709,27 @@ input[type="submit"]:hover {
     padding-left: 15px;
     padding-right: 36px;
     border-radius: 14px;
-    margin-top: 18vh;
-    margin-bottom: 7vh;
+    /* margin-top: 18vh; */
+    /* /* margin-bottom: 7vh; */
 }
 
 .servicesdetails:nth-child(3) {
-    grid-column: 3/5;
-    grid-row: 3/5;
+    grid-column: 3/4;
+    grid-row: 2/2;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 39px;
     padding-bottom: 23px;
     padding-left: 15px;
     padding-right: 36px;
-    margin-top: 0vh;
-    margin-bottom: 0vh;
+    /* margin-top: 0vh; */
+    /* margin-bottom: 0vh; */
     border-radius: 15px;
 }
 
 .servicesdetails:nth-child(4) {
-    grid-column: 4/5;
-    grid-row: 3/5;
+grid-column: 4/4;
+    grid-row: 2/2;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 39px;
@@ -734,8 +737,8 @@ input[type="submit"]:hover {
     padding-left: 15px;
     padding-right: 36px;
     border-radius: 14px;
-    margin-top: 0vh;
-    margin-bottom: 0vh;
+    /* margin-top: 0vh; */
+    /* /* margin-bottom: 0vh; */
 }
 
 .whyCol {
@@ -746,8 +749,8 @@ input[type="submit"]:hover {
 
 
     text-align: left;
-    grid-column: 1/5;
-    grid-row: 1/4;
+    grid-column: 1/4;
+    grid-row: 1/2;
     height: fit-content;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
@@ -756,17 +759,17 @@ input[type="submit"]:hover {
     padding-left: 15px;
     padding-right: 36px;
     border-radius: 14px;
-    margin-top: 34vh;
-    margin-bottom: 37vh;
+    /* margin-top: 34vh; */
+    /* /* margin-bottom: 37vh; */
 
 }
 
 .servicesdetails2:nth-child(2) {
 
 
-    text-align: left;
-    grid-column: 2/5;
-    grid-row: 1/4;
+  text-align: left;
+    grid-column: 2/4;
+    grid-row: 1/2;
     height: fit-content;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
@@ -775,18 +778,16 @@ input[type="submit"]:hover {
     padding-left: 15px;
     padding-right: 36px;
     border-radius: 14px;
-    margin-top: 34vh;
-    margin-bottom: 0vh;
+    /* margin-top: 34vh;
+    /* margin-bottom: 0vh; */
 
 }
 
 .servicesdetails2:nth-child(3) {
-
-
-    text-align: left;
-    grid-column: 3/5;
-    grid-row: 2/4;
-    /* height: fit-content; */
+text-align: left;
+    grid-column: 3/4;
+    grid-row: 2/2;
+    height: fit-content;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 22px;
@@ -794,33 +795,16 @@ input[type="submit"]:hover {
     padding-left: 15px;
     padding-right: 36px;
     border-radius: 14px;
-    margin-top: -5vh;
-    margin-bottom: 52vh;
+    /* margin-top: -40vh; */
+    /* /* margin-bottom: 52vh; */
 }
 
 .servicesdetails2:nth-child(4) {
 
+ 
     text-align: left;
-    grid-column: 1/5;
-    grid-row: 2/4;
-    /* height: fit-content; */
-    width: 285px;
-    background-color: rgba(0, 0, 0, 0.15);
-    padding-top: 22px;
-    padding-bottom: 17px;
-    padding-left: 15px;
-    padding-right: 36px;
-    border-radius: 14px;
-    margin-top: -5vh;
-    margin-bottom: 55vh;
-}
-
-.servicesdetails2:nth-child(5) {
-
-
-    text-align: left;
-    grid-column: 3/5;
-    grid-row: 1/4;
+    grid-column: 1/4;
+    grid-row: 2/2;
     height: fit-content;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
@@ -829,17 +813,33 @@ input[type="submit"]:hover {
     padding-left: 15px;
     padding-right: 36px;
     border-radius: 14px;
-    margin-top: 34vh;
-    margin-bottom: 14vh;
+    /* margin-top: -5vh; */
+    /* /* margin-bottom: 55vh; */
+}
+
+.servicesdetails2:nth-child(5) {
+
+
+        text-align: left;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: fit-content;
+    width: 285px;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding-top: 22px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    padding-right: 36px;
+    border-radius: 14px;
+    /* margin-top: 34vh; */
+    /* margin-bottom: 14vh; IMPORTANT*/ 
 }
 
 .servicesdetails2:nth-child(6) {
-
-
     text-align: left;
-    grid-column: 2/5;
-    grid-row: 2/4;
-    /* height: fit-content; */
+    grid-column: 2/4;
+    grid-row: 2/2;
+    height: fit-content;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 39px;
@@ -847,8 +847,8 @@ input[type="submit"]:hover {
     padding-left: 15px;
     padding-right: 36px;
     border-radius: 14px;
-    margin-top: -5vh;
-    margin-bottom: 52vh;
+    /* margin-top: -5vh; */
+    /* /* margin-bottom: 52vh; */
 }
 
 /* .chat-button {
@@ -1106,7 +1106,7 @@ input[type="submit"]:hover {
         scroll-snap-type: x mandatory;
         margin-left: 0px;
         margin-right: 0px;
-        margin-bottom: 0vh;
+        margin-bottom:0vh;
 
 
 
@@ -1116,32 +1116,32 @@ input[type="submit"]:hover {
 
     .rowTitles {
 
-        font-size: 29px;
-        font-weight: 700;
-        color: rgb(255, 255, 255);
-        margin-top: 3.5vh;
-        text-align: center;
-        /* padding-left: 0vh; */
-        margin-top: auto;
-        margin-left: auto;
-        letter-spacing: 3px;
-        /* word-spacing: -19vw; */
-        font-family: "Work Sans";
+            font-size: 29px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 3.5vh;
+    text-align: center;
+    /* padding-left: 0vh; */
+    margin-top: auto;
+    margin-left: auto;
+    letter-spacing: 3px;
+    /* word-spacing: -19vw; */
+    font-family: "Work Sans";
 
     }
 
     .rowTitles2 {
 
-        font-size: 25px;
-        font-weight: 700;
-        color: rgb(255, 255, 255);
-        margin-top: 3.5vh;
-        text-align: center;
-        padding-left: 1vh;
-        margin-top: auto;
-        letter-spacing: 2px;
-        font-family: "Work Sans";
-        margin-left: -4vw;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 3.5vh;
+    text-align: center;
+    padding-left: 1vh;
+    margin-top: auto;
+    letter-spacing: 2px;
+    font-family: "Work Sans";
+    margin-left: -4vw;
 
     }
 
@@ -1157,10 +1157,10 @@ input[type="submit"]:hover {
         border-radius: 10px;
         width: 100%;
         padding: 10px;
-
+        
         white-space: normal;
         word-wrap: break-word;
-
+        
         text-align: center;
         margin: 10px;
         height: auto;
@@ -1180,8 +1180,8 @@ input[type="submit"]:hover {
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-
-
+        
+        
         margin: 10px;
         height: auto;
         margin-top: 0vh;
@@ -1200,7 +1200,7 @@ input[type="submit"]:hover {
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-
+        
         height: auto;
         text-align: center;
         margin: 10px;
@@ -1220,7 +1220,7 @@ input[type="submit"]:hover {
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-
+        
         text-align: center;
         margin: 10px;
         margin-top: 0vh;
@@ -1239,7 +1239,7 @@ input[type="submit"]:hover {
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-
+        
         text-align: center;
         margin: 10px;
         margin-top: 0vh;
@@ -1258,7 +1258,7 @@ input[type="submit"]:hover {
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-
+        
         text-align: center;
         margin: 10px;
         margin-top: 0vh;
@@ -1437,13 +1437,13 @@ input[type="submit"]:hover {
 
     /* CSS for individual service cards */
     .services .servicesdetails {
-        flex: 0 0 auto;
-        min-width: 105%;
-        padding: 20px;
-        text-align: center;
-        margin-top: 13vh;
-        scroll-snap-align: start;
-        /* /* border-right: 1px solid #ccc; */
+    flex: 0 0 auto;
+    min-width: 105%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 13vh;
+    scroll-snap-align: start;
+    /* /* border-right: 1px solid #ccc; */
     }
 
     /* Remove the border from the last card */
@@ -1526,3 +1526,4 @@ input[type="submit"]:hover {
 
 
 }
+
