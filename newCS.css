@@ -199,7 +199,7 @@ h1#title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-right: 10%;
+    /* padding-right: 10%; */
     margin-top: -4%;
     justify-content: flex-start;
     width: 100%;
@@ -241,7 +241,7 @@ h2#subTitle {
     align-items: center;
     flex-wrap: nowrap;
     gap: 1vw;
-    margin-top: -5%;
+    margin-top: 0%;
 }
 
 .btn1 {
@@ -956,6 +956,8 @@ text-align: left;
         display: inline;
         /* display: flex; */
         justify-content: center;
+        padding-right: 0%;
+        margin-top: -1%;
         align-items: center;
         width: 70vw;
     }
