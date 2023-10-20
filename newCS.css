@@ -947,11 +947,11 @@ text-align: left;
     }
 
     .mod_title2 {
-        /* flex-direction: row;
-        margin-top: 39vh; */
-        display: inline-flex;
-        margin-top: 0vh;
-        margin-left: 15vw;
+        
+    display: inline-flex;
+    margin-top: 0vh;
+    margin-left: 28%;
+    /* margin-right: 0%;
 
 
     }
@@ -1146,11 +1146,12 @@ text-align: left;
     color: rgb(255, 255, 255);
     margin-top: 3.5vh;
     text-align: center;
-    padding-left: 1vh;
+    padding-left: 0vh;
     margin-top: auto;
     letter-spacing: 2px;
     font-family: "Work Sans";
-    margin-left: -4vw;
+    margin-left: auto;
+
 
     }
 
