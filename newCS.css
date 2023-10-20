@@ -199,7 +199,7 @@ h1#title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-right: 11%;
+    padding-right: 10%;
     margin-top: -4%;
     justify-content: flex-start;
     width: 100%;
@@ -221,7 +221,7 @@ h2#subTitle {
 
 #sst {
     font-family: 'Work Sans';
-    font-size: 138%;
+    font-size: 163%;
     font-weight: 300;
     line-height: 111%;
     vertical-align: baseline;
@@ -241,7 +241,7 @@ h2#subTitle {
     align-items: center;
     flex-wrap: nowrap;
     gap: 1vw;
-    margin-top: -7%;
+    margin-top: -5%;
 }
 
 .btn1 {
@@ -315,7 +315,7 @@ h2#subTitle {
 
 #ppt {
     font-family: 'Chela One';
-    font-size: 697%;
+    font-size: 822%;
     font-weight: 600;
     letter-spacing: 4px;
     align-items: left;
@@ -386,7 +386,7 @@ input::placeholder {
 .contents {
     color: white;
     text-align: left;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
 .rowTitles {
