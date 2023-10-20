@@ -402,15 +402,15 @@ input::placeholder {
 
 .rowTitles2 {
      padding-left: 35px;
-    font-size: 100px;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    margin-top: auto;
-    text-align: end;
-    margin-right: 5vw;
-    /* margin-top: 40vh; */
-    letter-spacing: 1px;
-    font-family: 'Work Sans';
+     font-size: 100px;
+     font-weight: 700;
+     color: rgb(255, 255, 255);
+     margin-top: auto;
+     text-align: end;
+     margin-right: 11%;
+     /* margin-top: 40vh; */
+     letter-spacing: 1px;
+     font-family: 'Work Sans';
 }
 
 .icons {
