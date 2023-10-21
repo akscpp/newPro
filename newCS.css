@@ -132,9 +132,9 @@ div#head_bottom_con3 {
     height: auto;
     justify-content: center;
     overflow: hidden;
-    padding-left: 4vw;
+    padding-left: 0vw;
     position: relative;
-    width: 50%;
+    width: 46%;
 }
 
 .secondCol {
@@ -176,7 +176,7 @@ div#head_bottom_con3 {
     justify-content: center;
     align-items: flex-start;
     max-width: 1998px;
-    padding-left: 6%;
+    /* padding-left: 6%; */
     width: 78%;
     background-color: rgba(0, 0, 0, 0.21);
     backdrop-filter: blur(15px);
@@ -199,7 +199,7 @@ h1#title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-right: 20%;
+    padding-right: 4%;
     margin-top: -4%;
     justify-content: flex-start;
     width: 100%;
@@ -241,7 +241,7 @@ h2#subTitle {
     align-items: center;
     flex-wrap: nowrap;
     gap: 1vw;
-    margin-top: 0%;
+    margin-top: -5%;
 }
 
 .btn1 {
@@ -290,7 +290,7 @@ h2#subTitle {
     align-items: center;
     cursor: pointer;
     color: rgb(255, 255, 255);
-    margin: 10px 20px;
+    margin: 10px 49px;
     font-family: 'Work Sans';
     content: "Claim Exclusive Access";
     letter-spacing: 2px;
@@ -386,7 +386,7 @@ input::placeholder {
 .contents {
     color: white;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 17%;
 }
 
 .rowTitles {
@@ -400,22 +400,22 @@ input::placeholder {
     letter-spacing: 1px;
     font-family: 'Work Sans';
 
-    
 
-    
+
+
 }
 
 .rowTitles2 {
-     padding-left: 35px;
-     font-size: 100px;
-     font-weight: 700;
-     color: rgb(255, 255, 255);
-     margin-top: auto;
-     text-align: end;
-     margin-right: 11%;
-     /* margin-top: 40vh; */
-     letter-spacing: 1px;
-     font-family: 'Work Sans';
+    padding-left: 35px;
+    font-size: 100px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: auto;
+    text-align: end;
+    margin-right: 11%;
+    /* margin-top: 40vh; */
+    letter-spacing: 1px;
+    font-family: 'Work Sans';
 }
 
 .icons {
@@ -662,23 +662,23 @@ input[type="submit"]:hover {
 }
 
 .services {
-       display: grid;
-       grid-template-columns: repeat(4, 1fr);
-       grid-template-rows: repeat(2, 1fr);
-       /* gap: 10px; */
-       row-gap: 57px;
-       /* margin-left: 129px; */
-       /* column-gap: 0vw; */
-       margin-right: 14px;
-       margin-top: -24%;
-       padding: 10px;
-       margin-bottom: 1%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* gap: 10px; */
+    row-gap: 57px;
+    /* margin-left: 129px; */
+    /* column-gap: 0vw; */
+    margin-right: 14px;
+    margin-top: -24%;
+    padding: 10px;
+    margin-bottom: 1%;
 }
 
 .services2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
     /* gap: 9px; */
     row-gap: 3vh;
     margin-left: -1vh;
@@ -708,7 +708,7 @@ input[type="submit"]:hover {
 }
 
 .servicesdetails:nth-child(2) {
-     grid-column: 4/4;
+    grid-column: 4/4;
     grid-row: 1/2;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
@@ -736,7 +736,7 @@ input[type="submit"]:hover {
 }
 
 .servicesdetails:nth-child(4) {
-grid-column: 4/4;
+    grid-column: 4/4;
     grid-row: 2/2;
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
@@ -775,10 +775,10 @@ grid-column: 4/4;
 .servicesdetails2:nth-child(2) {
 
 
-  text-align: left;
+    text-align: left;
     grid-column: 2/4;
     grid-row: 1/2;
-    height: fit-content;
+    /* height: fit-content; */
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 22px;
@@ -792,10 +792,10 @@ grid-column: 4/4;
 }
 
 .servicesdetails2:nth-child(3) {
-text-align: left;
+    text-align: left;
     grid-column: 3/4;
     grid-row: 2/2;
-    height: fit-content;
+    /* height: fit-content; */
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 22px;
@@ -809,11 +809,11 @@ text-align: left;
 
 .servicesdetails2:nth-child(4) {
 
- 
+
     text-align: left;
     grid-column: 1/4;
     grid-row: 2/2;
-    height: fit-content;
+    /* height: fit-content; */
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 22px;
@@ -828,10 +828,10 @@ text-align: left;
 .servicesdetails2:nth-child(5) {
 
 
-        text-align: left;
+    text-align: left;
     grid-column: 3/4;
     grid-row: 1/2;
-    height: fit-content;
+    /* height: fit-content; */
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 22px;
@@ -840,14 +840,14 @@ text-align: left;
     padding-right: 36px;
     border-radius: 14px;
     /* margin-top: 34vh; */
-    /* margin-bottom: 14vh; IMPORTANT*/ 
+    /* margin-bottom: 14vh; IMPORTANT*/
 }
 
 .servicesdetails2:nth-child(6) {
     text-align: left;
     grid-column: 2/4;
     grid-row: 2/2;
-    height: fit-content;
+    /* height: fit-content; */
     width: 285px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-top: 39px;
@@ -935,6 +935,16 @@ text-align: left;
 
 
 @media only screen and (max-width: 520px) {
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 1vw;
+        margin-top: 0%;
+    }
+
     .mod_title {
         /* flex-direction: row; */
         /* Stack items vertically on small screens */
@@ -942,20 +952,20 @@ text-align: left;
         /* Reset margin top */
         text-align: center;
         /* Center the text */
-        margin-left: 0vw;
+        margin-left: 5vw;
         display: inline-flex;
     }
 
     .mod_title2 {
-        
-    display: inline-flex;
-    margin-top: 0vh;
-    margin-left: 25%;
-    justify-content: center;
-    padding-right: 0%;
-    margin-top: -1%;
-    align-items: center;
-    width: 40%;
+
+        display: inline-flex;
+        margin-top: 0vh;
+        margin-left: 25%;
+        justify-content: center;
+        padding-right: 0%;
+        margin-top: -1%;
+        align-items: center;
+        width: 40%;
 
 
     }
@@ -1119,7 +1129,7 @@ text-align: left;
         scroll-snap-type: x mandatory;
         margin-left: 0px;
         margin-right: 0px;
-        margin-bottom:0vh;
+        margin-bottom: 0vh;
 
 
 
@@ -1129,33 +1139,33 @@ text-align: left;
 
     .rowTitles {
 
-    font-size: 29px;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    margin-top: 3.5vh;
-    text-align: center;
-    padding-left: 1vh;
-    margin-top: auto;
-    margin-left: auto;
-    letter-spacing: 3px;
-    /* word-spacing: -19vw; */
-    font-family: "Work Sans";
+        font-size: 29px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        margin-top: 3.5vh;
+        text-align: center;
+        padding-left: 1vh;
+        margin-top: auto;
+        margin-left: auto;
+        letter-spacing: 3px;
+        /* word-spacing: -19vw; */
+        font-family: "Work Sans";
 
     }
 
     .rowTitles2 {
 
-    font-size: 25px;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    margin-top: 3.5vh;
-    text-align: center;
-    padding-left: 0vh;
-    margin-top: auto;
-    letter-spacing: 2px;
-    font-family: "Work Sans";
-    margin-left: auto;
-        
+        font-size: 25px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        margin-top: 3.5vh;
+        text-align: center;
+        padding-left: 0vh;
+        margin-top: auto;
+        letter-spacing: 2px;
+        font-family: "Work Sans";
+        margin-left: auto;
+
 
 
     }
@@ -1172,10 +1182,10 @@ text-align: left;
         border-radius: 10px;
         width: 100%;
         padding: 10px;
-        
+
         white-space: normal;
         word-wrap: break-word;
-        
+
         text-align: center;
         margin: 10px;
         height: auto;
@@ -1195,8 +1205,8 @@ text-align: left;
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-        
-        
+
+
         margin: 10px;
         height: auto;
         margin-top: 0vh;
@@ -1215,7 +1225,7 @@ text-align: left;
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-        
+
         height: auto;
         text-align: center;
         margin: 10px;
@@ -1235,7 +1245,7 @@ text-align: left;
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-        
+
         text-align: center;
         margin: 10px;
         margin-top: 0vh;
@@ -1254,7 +1264,7 @@ text-align: left;
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-        
+
         text-align: center;
         margin: 10px;
         margin-top: 0vh;
@@ -1273,7 +1283,7 @@ text-align: left;
         text-align: center;
         white-space: normal;
         word-wrap: break-word;
-        
+
         text-align: center;
         margin: 10px;
         margin-top: 0vh;
@@ -1452,13 +1462,13 @@ text-align: left;
 
     /* CSS for individual service cards */
     .services .servicesdetails {
-    flex: 0 0 auto;
-    min-width: 105%;
-    padding: 20px;
-    text-align: center;
-    margin-top: 13vh;
-    scroll-snap-align: start;
-    /* /* border-right: 1px solid #ccc; */
+        flex: 0 0 auto;
+        min-width: 105%;
+        padding: 20px;
+        text-align: center;
+        margin-top: 13vh;
+        scroll-snap-align: start;
+        /* /* border-right: 1px solid #ccc; */
     }
 
     /* Remove the border from the last card */
@@ -1541,4 +1551,3 @@ text-align: left;
 
 
 }
-
