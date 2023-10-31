@@ -939,7 +939,7 @@ input[type="submit"]:hover {
     /* text-align: center; */
     /* color: white; */
     z-index: 4;
-    background-color: rgb(8, 49, 66);
+    background-color: white;
     align-items: center;
     display: flex;
     width: 37%;
@@ -953,7 +953,7 @@ input[type="submit"]:hover {
 .launchText {
 
     font-size: 20px;
-    color: white;
+    color: rgb(8, 49, 66);
 
     font-family: 'Chela One';
     letter-spacing: 2px;
@@ -970,7 +970,7 @@ input[type="submit"]:hover {
         /* text-align: center; */
         /* color: white; */
         z-index: 4;
-        background-color: rgb(8, 49, 66);
+        background-color: white;
         align-items: center;
         display: flex;
         width: 72%;
@@ -988,7 +988,7 @@ input[type="submit"]:hover {
     .launchText {
 
         font-size: 14px;
-        color: white;
+        color:rgb(8, 49, 66);
         font-family: 'Chela One';
 
 
