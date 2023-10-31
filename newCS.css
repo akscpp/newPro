@@ -976,8 +976,8 @@ input[type="submit"]:hover {
         width: 72%;
         height: fit-content;
         justify-content: center;
-        left: 12%;
-        top: 13%;
+        left: 7%;
+        top: 15%;
         /* font-family: 'Knick Knack'; */
     }
 
@@ -1097,7 +1097,7 @@ input[type="submit"]:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 43% 10px;
+        padding: 31% 10px;
     }
 
     .firstRow {
