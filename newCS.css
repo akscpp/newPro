@@ -199,7 +199,7 @@ h1#title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-right: 0%;
+    padding-right: 5%;
     margin-top: -4%;
     justify-content: flex-start;
     width: 100%;
@@ -932,9 +932,67 @@ input[type="submit"]:hover {
     margin-top: 29vh;
 
 }
+.tiltText {
+    transform: rotate(320deg);
+    position: absolute;
+    margin: 5% 0 0 -29%;
+    /* text-align: center; */
+    /* color: white; */
+    z-index: 4;
+    background-color: rgb(8, 49, 66);
+    align-items: center;
+    display: flex;
+    width: 37%;
+    height: fit-content;
+    justify-content: center;
+    left: 20%;
+    top: 7%;
+
+}
+
+.launchText {
+
+    font-size: 20px;
+    color: white;
+
+    font-family: 'Chela One';
+    letter-spacing: 2px;
+
+
+}
 
 
 @media only screen and (max-width: 520px) {
+    .tiltText {
+        transform: rotate(320deg);
+        position: absolute;
+        margin: 5% 0 0 -29%;
+        /* text-align: center; */
+        /* color: white; */
+        z-index: 4;
+        background-color: rgb(8, 49, 66);
+        align-items: center;
+        display: flex;
+        width: 72%;
+        height: fit-content;
+        justify-content: center;
+        left: 12%;
+        top: 13%;
+        /* font-family: 'Knick Knack'; */
+    }
+
+
+
+
+
+    .launchText {
+
+        font-size: 14px;
+        color: white;
+        font-family: 'Chela One';
+
+
+    }
     .buttons {
         display: flex;
         flex-direction: row;
@@ -1035,10 +1093,11 @@ input[type="submit"]:hover {
         width: 100vw;
         background-color: rgba(0, 0, 0, 0);
         backdrop-filter: blur(0px);
-        padding: 80px 10px;
+        /* padding: 80px 10px; */
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 43% 10px;
     }
 
     .firstRow {
