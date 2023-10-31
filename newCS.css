@@ -942,11 +942,11 @@ input[type="submit"]:hover {
     background-color: rgb(8, 49, 66);
     align-items: center;
     display: flex;
-    width: 54%;
+    width: 55%;
     height: fit-content;
     justify-content: center;
-    left: 15%;
-    top: 6%;
+    left: 13%;
+    top: 2%;
 
 }
 
