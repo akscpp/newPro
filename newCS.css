@@ -682,6 +682,8 @@ input[type="submit"]:hover {
     grid-template-rows: repeat(2, 1fr);
     /* gap: 9px; */
     row-gap: 6vh;
+    margin-left: 2%;
+    margin-right: -2%;
 
     margin-top: 2%;
 
