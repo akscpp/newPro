@@ -298,7 +298,7 @@ h2#subTitle {
 
 
 .secondRow {
-    background-color: #b41601;
+    background-color: rgb(149, 15, 1);
     cursor: pointer;
     padding: 4vh;
     height: fit-content;
@@ -435,7 +435,7 @@ input::placeholder {
 }
 
 #thirdRow {
-    background-color: rgb(8, 49, 66);
+    background-color: rgb(4, 35, 48);
     cursor: pointer;
     padding: 4vh;
     height: fit-content;
@@ -451,8 +451,9 @@ input::placeholder {
 }
 
 .texts2 {
-    color: rgb(140, 201, 227);
-    font-size: 18px;
+    color: #0083BA;
+
+    font-size: 16px;
     font-family: 'Work Sans';
     letter-spacing: 1.4px;
     word-spacing: 1.2px;
@@ -696,7 +697,7 @@ input[type="submit"]:hover {
     width: 285px;
     /* margin-top: 18vh; */
     /* margin-bottom: 7vh; */
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(123, 12, 0);
     padding-top: 39px;
     padding-bottom: 23px;
     padding-left: 15px;
@@ -708,7 +709,7 @@ input[type="submit"]:hover {
     grid-column: 2/4;
     grid-row: 1/1;
     width: 285px;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(123, 12, 0);
     padding-top: 39px;
     padding-bottom: 23px;
     padding-left: 15px;
@@ -722,7 +723,7 @@ input[type="submit"]:hover {
     grid-column: 4/4;
     grid-row: 1/1;
     width: 285px;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(123, 12, 0);
     padding-top: 39px;
     padding-bottom: 23px;
     padding-left: 15px;
@@ -736,7 +737,7 @@ input[type="submit"]:hover {
     grid-column: 3/4;
     grid-row: 1/1;
     width: 285px;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(123, 12, 0);
     padding-top: 39px;
     padding-bottom: 23px;
     padding-left: 15px;
@@ -758,7 +759,7 @@ input[type="submit"]:hover {
     grid-row: 1/2;
     height: fit-content;
     width: 46%;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(0, 24, 34);
     padding-top: 22px;
     padding-bottom: 17px;
     padding-left: 15px;
@@ -777,7 +778,7 @@ input[type="submit"]:hover {
     grid-row: 1/2;
     height: fit-content;
     width: 92%;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(0, 24, 34);
     padding-top: 22px;
     padding-bottom: 17px;
     padding-left: 15px;
@@ -794,7 +795,7 @@ input[type="submit"]:hover {
     grid-row: 2/2;
     height: fit-content;
     width: 90%;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(0, 24, 34);
     padding-top: 8px;
     padding-bottom: 32px;
     padding-left: 15px;
@@ -812,7 +813,7 @@ input[type="submit"]:hover {
     grid-row: 2/2;
     height: fit-content;
     width: 46%;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(0, 24, 34);
     padding-top: 22px;
     padding-bottom: 17px;
     padding-left: 15px;
@@ -830,7 +831,7 @@ input[type="submit"]:hover {
     grid-row: 1/2;
     height: fit-content;
     width: 90%;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(0, 24, 34);
     padding-top: 22px;
     padding-bottom: 17px;
     padding-left: 15px;
@@ -846,7 +847,7 @@ input[type="submit"]:hover {
     grid-row: 2/2;
     height: fit-content;
     width: 92%;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(0, 24, 34);
     padding-top: 17px;
     padding-bottom: 23px;
     padding-left: 15px;
@@ -949,7 +950,7 @@ input[type="submit"]:hover {
 
 .launchText {
 
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(8, 49, 66);
 
     font-family: 'Chela One';
@@ -1133,7 +1134,7 @@ input[type="submit"]:hover {
     }
 
     .secondRow {
-        background-color: #b41601;
+        background-color: rgb(149, 15, 1);
         cursor: pointer;
         /* padding: 4vh; */
         padding-left: 4vh;
@@ -1236,7 +1237,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgb(0, 24, 34);
         border-radius: 10px;
         width: 100%;
         padding: 10px;
@@ -1256,7 +1257,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgb(0, 24, 34);
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -1278,7 +1279,7 @@ input[type="submit"]:hover {
         margin-right: 20px;
         height: auto;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgb(0, 24, 34);
         border-radius: 10px;
         width: 100%;
         padding: 10px;
@@ -1298,7 +1299,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgb(0, 24, 34);
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -1318,7 +1319,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgb(0, 24, 34);
         border-radius: 10px;
         width: 100%;
         padding: 10px;
@@ -1338,7 +1339,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgb(0, 24, 34);
         border-radius: 10px;
         width: 100%;
         padding: 10px;
@@ -1358,7 +1359,7 @@ input[type="submit"]:hover {
         flex: 0 0 100%;
         margin-right: 20%;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgb(123, 12, 0);
         border-radius: 10px;
         /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
         width: 100%;
@@ -1379,7 +1380,7 @@ input[type="submit"]:hover {
         flex: 0 0 100%;
         margin-right: 20%;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgb(123, 12, 0);
         border-radius: 10px;
         /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
         width: 100%;
@@ -1421,7 +1422,7 @@ input[type="submit"]:hover {
         flex: 0 0 100%;
         margin-right: 20%;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgb(123, 12, 0);
         border-radius: 10px;
         /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
         width: 100%;
@@ -1591,7 +1592,7 @@ input[type="submit"]:hover {
         height: 10px;
         margin: 0 5px;
         border-radius: 50%;
-        background-color: rgb(6, 34, 46);
+        background-color: rgb(0, 24, 34);
         cursor: pointer;
     }
 
