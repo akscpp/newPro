@@ -143,6 +143,7 @@
         </div>
         <!-- <div class="menu-icon" onclick="toggleMenu()"></div> -->
     </div>
+    <div class="overlay"></div>
 
     <!-- ... (the rest of your HTML content) ... -->
 
@@ -341,6 +342,12 @@
 
 
                         </form>
+                        <!-- <div class="overlay"></div> -->
+                        <div id="myModal" class="modal">
+                            <img class="alertImage" src="alert_icon.svg">
+                            <p class="alertText1">Thanks for showing interest!</p>
+                            <p class="alertText2"> We'll get back to you soon!</p>
+                        </div>
                     </div>
                 </div>
                 <div class="footer">
@@ -439,37 +446,33 @@
             // Add your code to toggle the mobile menu here
         }
 
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwkogSIMrVWJu842G1GbXvE-kJY4QDSZdNlz4LPO7wEVwRLmuD0e3ewkNr28pkSDz39Eg/exec'
-        const form = document.forms['google-sheet']
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwkogSIMrVWJu842G1GbXvE-kJY4QDSZdNlz4LPO7wEVwRLmuD0e3ewkNr28pkSDz39Eg/exec';
+        const form = document.forms['google-sheet'];
+        const modal = document.getElementById('myModal');
 
         form.addEventListener('submit', e => {
             e.preventDefault();
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
-                    // Create a custom alert box
-                    const customAlert = document.createElement('div');
-                    customAlert.textContent = "Thanks for Contacting us..! We Will Contact You Soon...";
-                    customAlert.style.backgroundColor = 'black';
-                    customAlert.style.color = 'white';
-                    customAlert.style.padding = '10px';
-                    customAlert.style.textAlign = 'center';
-                    customAlert.style.borderRadius = '5px';
-                    customAlert.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.2)';
-                    customAlert.style.position = 'fixed';
-                    customAlert.style.top = '50%';
-                    customAlert.style.left = '50%';
-                    customAlert.style.transform = 'translate(-50%, -50%)';
-                    customAlert.style.zIndex = '9999';
+                    // Display the overlay
+                    document.querySelector('.overlay').style.display = 'block';
 
-                    document.body.appendChild(customAlert);
+                    // Display the modal
+                    modal.style.display = 'flex';
 
-                    // Automatically remove the custom alert after a few seconds
+                    // Automatically hide the modal after a few seconds
                     setTimeout(() => {
-                        customAlert.remove();
+                        modal.style.display = 'none';
+                        // Hide the overlay
+                        document.querySelector('.overlay').style.display = 'none';
                     }, 5000);
                 })
                 .catch(error => console.error('Error!', error.message));
         });
+
+
+
+
 
 
         function scrollToServices() {
