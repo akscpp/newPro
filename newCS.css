@@ -994,7 +994,7 @@ input[type="submit"]:hover {
     z-index: 1000;
     border-radius: 12px;
     backdrop-filter: blur(8px);
-    width: 25%;
+    
     /* Add a backdrop filter for blur effect */
 }
 
