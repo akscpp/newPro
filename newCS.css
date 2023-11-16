@@ -671,9 +671,10 @@ input[type="submit"]:hover {
     grid-template-rows: repeat(1, 1fr);
     /* gap: 10px; */
     /* row-gap: 57px; */
-    margin-left: 5%;
+    margin-left: 3%;
     /* column-gap: 0vw; */
     /* margin-right: 14px; */
+    column-gap: 42px;
     /* margin-top: -24%; */
     padding: 10px;
     margin-top: 1%;
