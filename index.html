@@ -77,11 +77,8 @@
         }
 
         .header .logo img {
-            width: 54.24px;
-
-            height: 75.02px;
-
-            transform: rotate(-14.93deg);
+            width: 88px;
+            height: 38.751px;
             padding-top: 5px;
 
         }
@@ -107,11 +104,11 @@
             }
 
             .header .logo img {
-                width: 33px;
+                width: 64px;
 
                 height: 45px;
 
-                transform: rotate(-14.93deg);
+                /* transform: rotate(-14.93deg); */
                 padding-top: 5px;
 
             }
@@ -139,9 +136,12 @@
     <div class="header">
         <div class="logo">
             <!-- Add your logo image here -->
-            <img src="logo.png" alt="Logo" id="logoAwwzo">
+            <img src="small_icon.svg" alt="Logo" id="logoAwwzo">
         </div>
         <!-- <div class="menu-icon" onclick="toggleMenu()"></div> -->
+        <div class="titleHeader">
+            <h1>About Us</h1>
+        </div>
     </div>
     <div class="overlay"></div>
 
@@ -162,27 +162,32 @@
                             <p class="launchText">Launching Soon!!</p>
                         </div>
                         <div class="contents">
-                            <div class="heading" id="top_header">
-                                <div id="ppt">
-                                    AWWZO</div>
-                            </div>
-                            <div class="subText">
-                                <h2 id="sst">
-                                    Experience a new level of premium pet boarding with our state of the art
-                                    facility
-                                    and highly trained staff.
-                                </h2>
-                            </div>
-                            <div class="buttons">
-                                <div class="btn1">
-                                    <h2 class="btn1-text" onclick="scrollToForm()">
-                                        Claim Access</h2>
+                            <div class="contents_content">
+                                <div class="heading" id="top_header">
+                                    <div id="ppt">
+                                        <img id="title_text" src="title_icon.svg">
+                                    </div>
+                                </div>
+                                <div class="subText">
+                                    <h2 id="sst">
+                                        Experience a new level of premium pet boarding with our state of the art
+                                        facility
+                                        and highly trained staff.
+                                    </h2>
+                                </div>
+                                <div class="buttons">
+                                    <div class="btn1">
+                                        <h2 class="btn1-text" onclick="scrollToForm()">
+                                            Claim Access</h2>
+                                    </div>
+
+                                    <div class="btn2">
+                                        <h2 class="btn2-text" onclick="scrollToServices()">Services</h2>
+                                    </div>
                                 </div>
 
-                                <div class="btn2">
-                                    <h2 class="btn2-text" onclick="scrollToServices()">Services</h2>
-                                </div>
                             </div>
+
                         </div>
                         <div class="secondCol">
                             <!-- <img class="image" src="./image 35.png" alt="landing-picture" /> -->
@@ -244,37 +249,37 @@
 
                                 <div class="servicesdetails2">
                                     <img src="in_out_1.svg">
-                                    <p class="titleServices"><b>IN AND OUT</b></p>
+                                    <p class="titleServices2"><b>IN AND OUT</b></p>
                                     <p class="texts2">Seamless access to both indoor and outdoor areas for comfort.</p>
 
                                 </div>
                                 <div class="servicesdetails2">
-                                    <img src="pure_air_1.svg">
-                                    <p class="titleServices"><b>PURE AIR</b></p>
+                                    <img src="pure_air_new.svg">
+                                    <p class="titleServices2"><b>PURE AIR</b></p>
                                     <p class="texts2">Top-tier hvac system ensures fresh air circulation with each
                                         cycle.</p>
                                 </div>
                                 <div class="servicesdetails2">
                                     <img src="dive_in_1.svg">
-                                    <p class="titleServices"><b>DIVE IN</b></p>
+                                    <p class="titleServices2"><b>DIVE IN</b></p>
                                     <p class="texts2">Dive into our in-ground saltwater pool and cool down.</p>
 
                                 </div>
 
                                 <div class="servicesdetails2">
                                     <img src="squeaky_1.svg">
-                                    <p class="titleServices"><b>SQUEAKY CLEAN</b></p>
+                                    <p class="titleServices2"><b>SQUEAKY CLEAN</b></p>
                                     <p class="texts2">We maintain the highest sanitation standards.</p>
 
                                 </div>
                                 <div class="servicesdetails2">
                                     <img src="sure_footed_1.svg">
-                                    <p class="titleServices"><b>SURE FOOTED</b></p>
+                                    <p class="titleServices2"><b>SURE FOOTED</b></p>
                                     <p class="texts2">Our textured floors offer the perfect paw-friendly grip.</p>
                                 </div>
                                 <div class="servicesdetails2">
                                     <img src="observe_1.svg">
-                                    <p class="titleServices"><b>OBSERVE</b></p>
+                                    <p class="titleServices2"><b>OBSERVE</b></p>
                                     <p class="texts2">Stay connected with your pup through our camera system.</p>
 
                                 </div>
@@ -296,9 +301,7 @@
                 <div id="lastRow">
                     <!-- <div class="emptyBox"></div> -->
                     <div class="forms" id="target">
-                        <h2 style="font-family: Chela One;letter-spacing: 2px;">AWWZO <span class="logo-small"><img
-                                    src="logo.png" alt="Small Logo"></span>
-                        </h2>
+                        <img src="title_in_form.svg">
                         <h1 id='form-title'>Claim Exclusive
                             Access</h1>
                         <form id="contactForm" method="POST" name="google-sheet">
