@@ -167,9 +167,29 @@ div#head_bottom_con3 {
     left: 0;
 }
 
+.title_text {
+    width: 516.026px;
+    height: 227.235px;
+}
 
 
 .contents {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 4%; */
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    /* max-width: 1998px; */
+    /* padding-left: 6%; */
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.21);
+    backdrop-filter: blur(15px);
+
+}
+
+.contents_content {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -177,11 +197,9 @@ div#head_bottom_con3 {
     height: 100%;
     justify-content: center;
     align-items: flex-start;
-    max-width: 1998px;
-    /* padding-left: 6%; */
-    width: 78%;
-    background-color: rgba(0, 0, 0, 0.21);
-    backdrop-filter: blur(15px);
+    padding-left: 11%;
+
+
 }
 
 h1#title {
@@ -229,7 +247,7 @@ h2#subTitle {
     vertical-align: baseline;
     letter-spacing: 0.5px;
     word-spacing: -1px;
-    color: rgb(255, 255, 255);
+    color: #FFF1DE;
     width: auto;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -249,8 +267,8 @@ h2#subTitle {
 .btn1 {
     align-content: center;
     align-items: center;
-    background-color: rgb(218, 27, 3);
-    border-radius: 6px;
+    background-color: #212156;
+    border-radius: 39px;
     box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 0 30px 30px -3.75px #0000000d;
     height: 60px;
     width: fit-content;
@@ -265,7 +283,7 @@ h2#subTitle {
     font-weight: 700;
     align-items: center;
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: #fdcb2e;
     margin: 10px 20px;
     font-family: 'Work Sans';
     content: "Claim Exclusive Access";
@@ -274,7 +292,7 @@ h2#subTitle {
 
 .btn2 {
     align-items: center;
-    border-radius: 6px;
+    border-radius: 39px;
     box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 0 30px 30px -3.75px #0000000d;
     height: 60px;
     width: fit-content;
@@ -283,7 +301,7 @@ h2#subTitle {
     justify-content: center;
     display: flex;
     background: transparent;
-    border: 2px solid white;
+    border: 1.7px solid #FFF1DE;
 }
 
 .btn2-text {
@@ -291,7 +309,7 @@ h2#subTitle {
     font-weight: 700;
     align-items: center;
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: #FFF1DE;
     margin: 10px 49px;
     font-family: 'Work Sans';
     content: "Claim Exclusive Access";
@@ -300,7 +318,7 @@ h2#subTitle {
 
 
 .secondRow {
-    background-color: rgb(149, 15, 1);
+    background-color: #FFF1DE;
     cursor: pointer;
     padding: 4vh;
     height: fit-content;
@@ -377,7 +395,7 @@ input::placeholder {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     margin-left: auto;
     width: 477px;
-    padding-top: 1px;
+    padding-top: 1%;
     padding-right: 1vw;
 }
 
@@ -388,14 +406,14 @@ input::placeholder {
 .contents {
     color: white;
     text-align: left;
-    padding-left: 11%;
+    /* padding-left: 11%; */
 }
 
 .rowTitles {
     padding-left: 35px;
     font-size: 80px;
     font-weight: 700;
-    color: rgb(255, 255, 255);
+    color: #212156;
     /* margin-top: 0vh;
     margin-left: 2vw;*/
     margin-bottom: 3%;
@@ -412,7 +430,7 @@ input::placeholder {
     /* padding-left: 35px; */
     font-size: 80px;
     font-weight: 700;
-    color: rgb(255, 255, 255);
+    color: #FCF4DC;
     /* margin-top: auto; */
     text-align: center;
     /* margin-right: 11%; */
@@ -430,7 +448,7 @@ input::placeholder {
 
 .titleServices {
 
-    color: rgb(255, 255, 255);
+    color: #FFF1DE;
     font-size: 24px;
     font-family: 'Work Sans';
     margin-top: 3px;
@@ -438,7 +456,7 @@ input::placeholder {
 }
 
 #thirdRow {
-    background-color: rgb(4, 35, 48);
+    background-color: #212156;
     cursor: pointer;
     padding: 4vh;
     height: fit-content;
@@ -446,7 +464,7 @@ input::placeholder {
 }
 
 .texts1 {
-    color: rgb(255, 255, 255);
+    color: #FFF1DE;
     font-size: 18px;
     font-family: 'Work Sans';
     word-spacing: 1.5px;
@@ -454,7 +472,7 @@ input::placeholder {
 }
 
 .texts2 {
-    color: #0083BA;
+    color: #535351;
 
     font-size: 16px;
     font-family: 'Work Sans';
@@ -463,14 +481,12 @@ input::placeholder {
     margin-top: -10px;
 }
 
-.titleServices_1 {
-    display: flex;
-    flex-direction: row;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    justify-content: space-between;
-    padding-left: 209px;
-    padding-right: 238px;
+.titleServices2 {
+
+    color: #1E1C1F;
+    font-size: 24px;
+    font-family: 'Work Sans';
+    margin-top: 3px
 }
 
 .tite {
@@ -548,6 +564,7 @@ h2 {
 .form-group {
     margin-bottom: 12px;
     font-family: 'Work Sans';
+    color: #083142;
 }
 
 .form-row {
@@ -568,8 +585,8 @@ textarea {
     width: 101%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 2.5px solid rgb(180, 22, 1);
-    border-radius: 11px;
+    border: 2px solid #30287D;
+    border-radius: 12px;
     height: 44px;
 }
 
@@ -585,7 +602,7 @@ input[type="checkbox"] {
 
 
 input[type="submit"] {
-    background-color: rgb(180, 22, 1);
+    background-color: #30287D;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -642,7 +659,7 @@ input[type="submit"]:hover {
     text-align: center;
     padding: 2vh;
     /* height: 0%; */
-    background-color: rgb(180, 22, 1);
+    background-color: #212156;
 }
 
 .socials {
@@ -698,27 +715,29 @@ input[type="submit"]:hover {
 .servicesdetails:first-child {
     grid-column: 1/4;
     grid-row: 1/1;
-    width: 285px;
+    width: 307px;
     /* margin-top: 18vh; */
     /* margin-bottom: 7vh; */
-    background-color: rgb(123, 12, 0);
+    background-color: #212156;
     padding-top: 39px;
     padding-bottom: 23px;
     padding-left: 15px;
-    padding-right: 36px;
+    padding-right: 15px;
     border-radius: 14px;
+    text-align: center;
 }
 
 .servicesdetails:nth-child(2) {
     grid-column: 2/4;
     grid-row: 1/1;
-    width: 285px;
-    background-color: rgb(123, 12, 0);
+    width: 307px;
+    background-color: #212156;
     padding-top: 39px;
     padding-bottom: 23px;
     padding-left: 15px;
-    padding-right: 36px;
+    padding-right: 15px;
     border-radius: 14px;
+    text-align: center;
     /* margin-top: 18vh; */
     /* /* margin-bottom: 7vh; */
 }
@@ -726,27 +745,29 @@ input[type="submit"]:hover {
 .servicesdetails:nth-child(3) {
     grid-column: 4/4;
     grid-row: 1/1;
-    width: 285px;
-    background-color: rgb(123, 12, 0);
+    width: 307px;
+    background-color: #212156;
     padding-top: 39px;
     padding-bottom: 23px;
     padding-left: 15px;
-    padding-right: 36px;
+    padding-right: 15px;
     /* margin-top: 0vh; */
     /* margin-bottom: 0vh; */
+    text-align: center;
     border-radius: 15px;
 }
 
 .servicesdetails:nth-child(4) {
     grid-column: 3/4;
     grid-row: 1/1;
-    width: 285px;
-    background-color: rgb(123, 12, 0);
+    width: 307px;
+    background-color: #212156;
     padding-top: 39px;
     padding-bottom: 23px;
     padding-left: 15px;
-    padding-right: 36px;
+    padding-right: 15px;
     border-radius: 14px;
+    text-align: center;
     /* margin-top: 0vh; */
     /* /* margin-bottom: 0vh; */
 }
@@ -761,7 +782,7 @@ input[type="submit"]:hover {
     grid-row: 1/2;
     height: fit-content;
     width: 46%;
-    background-color: rgb(0, 24, 34);
+    background-color: #FDC749;
     /* gap: 10%; */
     padding-top: 6%;
     padding-bottom: 6%;
@@ -778,7 +799,7 @@ input[type="submit"]:hover {
     grid-row: 1/2;
     height: fit-content;
     width: 92%;
-    background-color: rgb(0, 24, 34);
+    background-color: #FDC749;
     padding-top: 13%;
     padding-bottom: 11%;
     padding-left: 4%;
@@ -794,7 +815,7 @@ input[type="submit"]:hover {
     grid-row: 2/2;
     height: fit-content;
     width: 90%;
-    background-color: rgb(0, 24, 34);
+    background-color: #FDC749;
     padding-top: 13%;
     padding-bottom: 11%;
     padding-left: 5%;
@@ -810,7 +831,7 @@ input[type="submit"]:hover {
     grid-row: 2/2;
     height: fit-content;
     width: 46%;
-    background-color: rgb(0, 24, 34);
+    background-color: #FDC749;
     padding-top: 6%;
     padding-bottom: 6%;
     padding-left: 2%;
@@ -826,7 +847,7 @@ input[type="submit"]:hover {
     grid-row: 1/2;
     height: fit-content;
     width: 90%;
-    background-color: rgb(0, 24, 34);
+    background-color: #FDC749;
     padding-top: 13%;
     padding-bottom: 11%;
     padding-left: 4%;
@@ -842,7 +863,7 @@ input[type="submit"]:hover {
     grid-row: 2/2;
     height: fit-content;
     width: 92%;
-    background-color: rgb(0, 24, 34);
+    background-color: #FDC749;
     padding-top: 12%;
     padding-bottom: 12%;
     padding-left: 5%;
@@ -910,8 +931,9 @@ input[type="submit"]:hover {
 
 #form-title {
     font-family: "Work Sans";
-    color: rgb(8, 49, 66);
+    color: #FF862C;
     font-weight: 600;
+    margin-top: 2%;
 }
 
 .mod_title {
@@ -932,7 +954,7 @@ input[type="submit"]:hover {
     /* text-align: center; */
     /* color: white; */
     z-index: 4;
-    background-color: white;
+    background-color: #fdcb2e;
     align-items: center;
     display: flex;
     width: 93%;
@@ -946,7 +968,7 @@ input[type="submit"]:hover {
 .launchText {
 
     font-size: 23px;
-    color: rgb(8, 49, 66);
+    color: #212156;
 
     font-family: 'Chela One';
     letter-spacing: 2px;
@@ -1024,8 +1046,19 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 520px) {
+    .contents_content {
+        align-items: center;
+        padding-left: 0px;
+        margin-top: 10%;
+    }
+
+    #title_text {
+        width: 84%;
+        height: auto;
+    }
+
     .texts2 {
-        color: #0083BA;
+        color: #535351;
 
         font-size: 16px;
         font-family: 'Work Sans';
@@ -1036,11 +1069,17 @@ input[type="submit"]:hover {
 
     .titleServices {
 
-        color: rgb(255, 255, 255);
+        color: #FFF1DE;
         font-size: 24px;
         font-family: 'Work Sans';
 
 
+    }
+
+    .titleServices2 {
+        color: #1E1C1F;
+        font-size: 24px;
+        font-family: 'Work Sans';
     }
 
     .tiltText {
@@ -1050,7 +1089,7 @@ input[type="submit"]:hover {
         /* text-align: center; */
         /* color: white; */
         z-index: 4;
-        background-color: white;
+        background-color: #fdcb2e;
         align-items: center;
         display: flex;
         width: 72%;
@@ -1072,7 +1111,7 @@ input[type="submit"]:hover {
     .launchText {
 
         font-size: 14px;
-        color: rgb(8, 49, 66);
+        color: #212156;
         font-family: 'Chela One';
 
 
@@ -1130,7 +1169,7 @@ input[type="submit"]:hover {
     }
 
     .texts1 {
-        color: rgb(255, 255, 255);
+        color: #FFF1DE;
         font-size: 19px;
         font-family: 'Work Sans';
         word-spacing: 1.5px;
@@ -1160,13 +1199,13 @@ input[type="submit"]:hover {
     }
 
     #ppt {
-        font-family: 'Chela One';
-        font-size: 9vh;
+        /* font-family: 'Chela One';
+        font-size: 9vh; */
         /* font-weight: 600; */
-        margin-bottom: -1vh;
-        letter-spacing: 4px;
+        margin-bottom: -7%;
+        /* letter-spacing: 4px; */
         text-align: center;
-        color: rgb(218, 27, 3);
+        /* color: rgb(218, 27, 3); */
     }
 
 
@@ -1194,7 +1233,7 @@ input[type="submit"]:hover {
     }
 
     .texts2 {
-        color: rgb(255, 255, 255);
+        color: #535351;
         font-size: 20px;
         font-family: 'Work Sans';
         letter-spacing: 1.4px;
@@ -1220,7 +1259,7 @@ input[type="submit"]:hover {
     }
 
     .secondRow {
-        background-color: rgb(149, 15, 1);
+        background-color: #FFF1DE;
         cursor: pointer;
         /* padding: 4vh; */
         padding-left: 4vh;
@@ -1283,7 +1322,7 @@ input[type="submit"]:hover {
 
         font-size: 29px;
         font-weight: 700;
-        color: rgb(255, 255, 255);
+        color: #212156;
         margin-top: 3.5vh;
         text-align: center;
         padding-left: 1vh;
@@ -1301,7 +1340,7 @@ input[type="submit"]:hover {
 
         font-size: 25px;
         font-weight: 700;
-        color: rgb(255, 255, 255);
+        color: #FCF4DC;
         margin-top: 3.5vh;
         text-align: center;
         padding-left: 0vh;
@@ -1323,7 +1362,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgb(0, 24, 34);
+        background-color: #FDC749;
         border-radius: 10px;
         width: 100%;
         padding: 10px;
@@ -1343,7 +1382,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgb(0, 24, 34);
+        background-color: #FDC749;
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -1365,7 +1404,7 @@ input[type="submit"]:hover {
         margin-right: 20px;
         height: auto;
         scroll-snap-align: start;
-        background-color: rgb(0, 24, 34);
+        background-color: #FDC749;
         border-radius: 10px;
         width: 100%;
         padding: 10px;
@@ -1385,7 +1424,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgb(0, 24, 34);
+        background-color: #FDC749;
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -1405,7 +1444,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgb(0, 24, 34);
+        background-color: #FDC749;
         border-radius: 10px;
         width: 100%;
         padding: 10px;
@@ -1425,7 +1464,7 @@ input[type="submit"]:hover {
         max-width: 100%;
         margin-right: 20px;
         scroll-snap-align: start;
-        background-color: rgb(0, 24, 34);
+        background-color: #FDC749;
         border-radius: 10px;
         width: 100%;
         padding: 10px;
@@ -1445,7 +1484,7 @@ input[type="submit"]:hover {
         flex: 0 0 100%;
         margin-right: 20%;
         scroll-snap-align: start;
-        background-color: rgb(123, 12, 0);
+        background-color: #212156;
         border-radius: 10px;
         /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
         width: 100%;
@@ -1466,7 +1505,7 @@ input[type="submit"]:hover {
         flex: 0 0 100%;
         margin-right: 20%;
         scroll-snap-align: start;
-        background-color: rgb(123, 12, 0);
+        background-color: #212156;
         border-radius: 10px;
         /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
         width: 100%;
@@ -1487,7 +1526,7 @@ input[type="submit"]:hover {
         flex: 0 0 100%;
         margin-right: 20%;
         scroll-snap-align: start;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: #212156;
         border-radius: 10px;
         /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
         width: 100%;
@@ -1508,7 +1547,7 @@ input[type="submit"]:hover {
         flex: 0 0 100%;
         margin-right: 20%;
         scroll-snap-align: start;
-        background-color: rgb(123, 12, 0);
+        background-color: #212156;
         border-radius: 10px;
         /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
         width: 100%;
@@ -1572,7 +1611,7 @@ input[type="submit"]:hover {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
         margin: 0 auto;
         width: auto;
-        padding-top: 0px;
+        padding-top: 5%;
         padding-right: 2vw;
         overflow-y: auto;
         height: auto;
@@ -1580,7 +1619,7 @@ input[type="submit"]:hover {
 
     #form-title {
         font-family: "Work Sans";
-        color: rgb(8, 49, 66);
+        color: #FF862C;
         font-size: 17px;
         text-align: center;
     }
