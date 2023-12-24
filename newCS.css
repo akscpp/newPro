@@ -239,6 +239,8 @@ h2#subTitle {
     text-align: var(text-alignment, start);
 }
 
+
+
 #sst {
     font-family: 'Work Sans';
     font-size: 163%;
@@ -252,6 +254,16 @@ h2#subTitle {
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
+
+
+
+    /* color: #FFF1DE;
+
+font-family: Work Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400; */
+    /* line-height: 120%; 33.6px */
 }
 
 .buttons {
@@ -326,10 +338,15 @@ h2#subTitle {
 }
 
 .titleHeader {
-    font-size: 13px;
-    font-weight: bold;
-    font-family: 'Work Sans';
-    color: rgb(240, 240, 240);
+    color: #FFF;
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    /* 237.5% */
+    letter-spacing: 1.44px;
 }
 
 
@@ -474,19 +491,27 @@ input::placeholder {
 .texts2 {
     color: #535351;
 
+    font-family: Work Sans;
     font-size: 16px;
-    font-family: 'Work Sans';
-    letter-spacing: 1.4px;
-    word-spacing: 1.2px;
-    margin-top: -10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
 }
 
 .titleServices2 {
 
     color: #1E1C1F;
-    font-size: 24px;
-    font-family: 'Work Sans';
-    margin-top: 3px
+
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80%;
+    /* 17.6px */
+    text-transform: uppercase;
 }
 
 .tite {
@@ -780,7 +805,7 @@ input[type="submit"]:hover {
     text-align: left;
     grid-column: 1/3;
     grid-row: 1/2;
-    height: fit-content;
+    height: 100%;
     width: 46%;
     background-color: #FDC749;
     /* gap: 10%; */
@@ -797,7 +822,7 @@ input[type="submit"]:hover {
     text-align: left;
     grid-column: 2/3;
     grid-row: 1/2;
-    height: fit-content;
+    height: 100%;
     width: 92%;
     background-color: #FDC749;
     padding-top: 13%;
@@ -812,8 +837,8 @@ input[type="submit"]:hover {
 .servicesdetails2:nth-child(3) {
     text-align: left;
     grid-column: 3/3;
-    grid-row: 2/2;
-    height: fit-content;
+    grid-row: 1/2;
+    height: 100%;
     width: 90%;
     background-color: #FDC749;
     padding-top: 13%;
@@ -829,7 +854,7 @@ input[type="submit"]:hover {
     text-align: left;
     grid-column: 1/3;
     grid-row: 2/2;
-    height: fit-content;
+    height: 100%;
     width: 46%;
     background-color: #FDC749;
     padding-top: 6%;
@@ -843,10 +868,10 @@ input[type="submit"]:hover {
 
 .servicesdetails2:nth-child(5) {
     text-align: left;
-    grid-column: 3/3;
-    grid-row: 1/2;
-    height: fit-content;
-    width: 90%;
+    grid-column: 2/3;
+    grid-row: 2/2;
+    height: 100%;
+    width: 92%;
     background-color: #FDC749;
     padding-top: 13%;
     padding-bottom: 11%;
@@ -859,9 +884,9 @@ input[type="submit"]:hover {
 
 .servicesdetails2:nth-child(6) {
     text-align: left;
-    grid-column: 2/3;
+    grid-column: 3/3;
     grid-row: 2/2;
-    height: fit-content;
+    height: 100%;
     width: 92%;
     background-color: #FDC749;
     padding-top: 12%;
@@ -1046,6 +1071,10 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 520px) {
+    .titleHeader {
+        font-size: 10px;
+    }
+
     .contents_content {
         align-items: center;
         padding-left: 0px;
