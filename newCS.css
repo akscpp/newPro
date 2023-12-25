@@ -512,6 +512,7 @@ input::placeholder {
     line-height: 80%;
     /* 17.6px */
     text-transform: uppercase;
+    margin-top: 4%;
 }
 
 .tite {
